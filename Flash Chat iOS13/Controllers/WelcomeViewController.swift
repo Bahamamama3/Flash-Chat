@@ -22,11 +22,8 @@ class WelcomeViewController: UIViewController {
         navigationController?.isNavigationBarHidden = false
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
         titleLabel.text = ""
         var charIndex = 0.0
         let titleText = K.appName
@@ -35,10 +32,6 @@ class WelcomeViewController: UIViewController {
                 self.titleLabel.text?.append(letter)
             }
             charIndex += 1
-            
         }
-        
     }
-    
-    
 }
