@@ -7,7 +7,7 @@
 //
 
 struct K {
-    static let appName = "BermetK8T"
+    static let appName = "Flash Chat"
     static let cellIdentifier = "ReusableCell"
     static let cellNibName = "MessageCell"
     static let registerSegue = "RegisterToChat"
